@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Белый фон -->
+
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:color="#5A30F2"
+                android:width="2dp"
+               /> <!-- Обводка цвета #5A30F2 и толщиной 2dp -->
+            <corners android:radius="11dp" />
+        </shape>
+    </item>
+</layer-list>

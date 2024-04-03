@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="300dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="47dp"
+        android:fontFamily="@font/manrope_medium"
+        android:text="НОВИНКИ \n · ДОБАВЛЕН НЕМЕЦКИЙ ЯЗЫК  \n · ИСПРАВЛЕНЫ БАГИ В РАБОТЕ ИИ \n · ДОБАВЛЕНЫ НОВЫЕ АВАТАРКИ \n · ИЗМЕНЕН ДИЗАЙН СТРАНИЦЫ \n   ВХОДА"
+        android:textColor="#5A30F2"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="328dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="33dp"
+        android:background="@drawable/border_button_email"
+        android:fontFamily="@font/manrope_extrabold"
+        android:gravity="center"
+        android:paddingLeft="11dp"
+        android:text="ОБНОВЛЕНИЕ 0.10.23"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="arrow_back_language_choice"
+        android:onClick="go_main"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ion_arrow_back_outline" />
+
+    <TextView
+        android:background="@drawable/border_button_email"
+        android:id="@+id/textView5"
+        android:layout_width="328dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/manrope_extrabold"
+        android:gravity="center"
+        android:paddingLeft="11dp"
+        android:text="ОБНОВЛЕНИЕ 0.10.23"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="47dp"
+        android:fontFamily="@font/manrope_medium"
+        android:text="НОВИНКИ \n · ДОБАВЛЕН ЧЕШСКИЙ ЯЗЫК \n · ИСПРАВЛЕН БАГ В ЧАТЕ С ИИ"
+        android:textColor="#5A30F2"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
